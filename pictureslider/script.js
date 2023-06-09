@@ -75,7 +75,7 @@ const changeSlide = (direction) => {
     }
     
     bgSLIDE.style.transform = `translateX(-${activeSlideIndex * sliderHeight}px)`
-    picSLIDE.style.transform = `translateX(-${activeSlideIndex * sliderHeight}px)`
+    picSLIDE.style.transform = `translateX(+${activeSlideIndex * sliderHeight}px)`
 }
 
 
